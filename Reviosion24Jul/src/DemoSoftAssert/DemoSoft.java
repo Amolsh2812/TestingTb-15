@@ -16,6 +16,9 @@ public class DemoSoft
 		System.out.println("2");
 		ss.assertEquals(10, 5);
 		
+		System.out.println("3");
+		ss.assertEquals(10, 10);
+		
 		ss.assertAll();
 	
 	}
