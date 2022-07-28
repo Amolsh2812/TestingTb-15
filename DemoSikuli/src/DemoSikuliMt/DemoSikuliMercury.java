@@ -25,13 +25,14 @@ public class DemoSikuliMercury
 		
 		Screen sc=new Screen();
 		
-		Pattern username=new Pattern("G:\\SnippingToolSikuli\\uname.PNG");
-		sc.type(username,"QQQQ");
-		Pattern passwword=new Pattern("G:\\SnippingToolSikuli\\pass.PNG");
-		sc.type(passwword,"qqqq");
-		Pattern submit=new Pattern("G:\\SnippingToolSikuli\\submit.PNG");
+		Pattern usr=new Pattern("G:\\SnippingToolSikuli\\mercuryuser.PNG");
+		sc.type(usr,"QQQQ");
 		
-		sc.click(submit);
+		Pattern ps=new Pattern("G:\\SnippingToolSikuli\\mercuryps.PNG");
+		sc.type(ps,"qqqq");
+		
+		Pattern sb=new Pattern("G:\\SnippingToolSikuli\\mersub.PNG");
+		sc.click(sb);
 		
 		
 		
